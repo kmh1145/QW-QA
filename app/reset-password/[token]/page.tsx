@@ -1,0 +1,2 @@
+import type { Metadata } from "next"; import { AuthForm } from "@/components/auth-form";
+export const metadata: Metadata = { title: "重置密码", robots: { index: false, follow: false } }; export default async function ResetPage({ params }: { params: Promise<{ token: string }> }) { return <main className="mx-auto max-w-md px-4 py-12"><h1 className="mb-6 text-3xl font-bold">设置新密码</h1><AuthForm mode="reset" token={(await params).token} /></main>; }

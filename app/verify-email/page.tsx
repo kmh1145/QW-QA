@@ -1,0 +1,2 @@
+import type { Metadata } from "next"; import { ResendForm } from "@/components/resend-form";
+export const metadata: Metadata = { title: "验证邮箱", robots: { index: false, follow: false } }; export default function VerifyEmailPage() { return <main className="mx-auto max-w-md px-4 py-12"><h1 className="text-3xl font-bold">请验证邮箱</h1><p className="mt-3 text-slate-600">验证邮件已发送。完成验证前不能发布、回答或使用 AI 助手。链接失效时可在下方重新发送。</p><ResendForm /></main>; }

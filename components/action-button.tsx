@@ -1,0 +1,3 @@
+"use client";
+import { useState } from "react"; import { useRouter } from "next/navigation";
+export function ActionButton({ endpoint, label, confirm }: { endpoint: string; label: string; confirm?: string }) { const router = useRouter(); const [busy, setBusy] = useState(false); async function run() { if (confirm && !window.confirm(confirm)) return; setBusy(true); const res = await fetch(endpoint, { method: "POST" }); setBusy(false); if (!res.ok) { const body = await res.json(); alert(body.error?.message ?? "操作失败"); return; } router.refresh(); } return <button type="button" className="btn-secondary !min-h-9 !py-1 text-sm" onClick={run} disabled={busy}>{busy ? "处理中…" : label}</button>; }

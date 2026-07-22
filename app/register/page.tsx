@@ -1,0 +1,2 @@
+import type { Metadata } from "next"; import Link from "next/link"; import { AuthForm } from "@/components/auth-form";
+export const metadata: Metadata = { title: "注册", robots: { index: false, follow: false } }; export default function RegisterPage() { return <main className="mx-auto max-w-md px-4 py-12"><h1 className="mb-6 text-center text-3xl font-bold">创建账号</h1><AuthForm mode="register" /><p className="mt-4 text-center text-sm">已有账号？<Link className="text-brand-600" href="/login">登录</Link></p></main>; }

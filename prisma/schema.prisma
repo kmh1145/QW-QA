@@ -1,0 +1,489 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum IdentityBadge {
+  NONE
+  GRADE_1
+  GRADE_2
+  GRADE_3
+  ALUMNI
+  TEACHER
+}
+
+enum UserStatus {
+  ACTIVE
+  DISABLED
+  BANNED
+}
+
+enum ContentStatus {
+  DRAFT
+  PUBLISHED
+  PENDING
+  HIDDEN
+  MERGED
+  DELETED
+}
+
+enum ReportStatus {
+  PENDING
+  RESOLVED
+  IGNORED
+}
+
+enum ReportReason {
+  SPAM
+  HARASSMENT
+  MISINFORMATION
+  PRIVACY
+  IMPERSONATION
+  ILLEGAL
+  OTHER
+}
+
+enum NotificationType {
+  QUESTION_ANSWERED
+  QUESTION_COMMENTED
+  COMMENT_REPLIED
+  BEST_ANSWER
+  OFFICIAL_ANSWER
+  CONTENT_MODERATED
+  REPORT_RESULT
+  IDENTITY_CHANGED
+  ROLE_CHANGED
+}
+
+enum DocumentStatus {
+  PENDING
+  PROCESSING
+  READY
+  ERROR
+  DISABLED
+}
+
+enum SourceType {
+  KNOWLEDGE
+  ANNOUNCEMENT
+  OFFICIAL_ANSWER
+  BEST_ANSWER
+  COMMUNITY
+}
+
+enum MessageRole {
+  USER
+  ASSISTANT
+  SYSTEM
+}
+
+model User {
+  id                 String                   @id @default(cuid())
+  username           String                   @unique @db.VarChar(20)
+  email              String                   @unique @db.VarChar(320)
+  emailVerifiedAt    DateTime?
+  passwordHash       String
+  role               Role                     @default(USER)
+  identityBadge      IdentityBadge            @default(NONE)
+  identityChangedAt  DateTime?
+  avatarUrl          String?
+  bio                String?                  @db.VarChar(500)
+  status             UserStatus               @default(ACTIVE)
+  banReason          String?
+  bannedUntil        DateTime?
+  sessionVersion     Int                      @default(1)
+  passwordResetAt    DateTime?
+  mustChangePassword Boolean                  @default(false)
+  lastLoginAt        DateTime?
+  createdAt          DateTime                 @default(now())
+  updatedAt          DateTime                 @updatedAt
+  deletedAt          DateTime?
+  sessions           Session[]
+  emailTokens        EmailVerificationToken[]
+  resetTokens        PasswordResetToken[]
+  questions          Question[]
+  answers            Answer[]
+  comments           Comment[]
+  questionVotes      QuestionVote[]
+  answerVotes        AnswerVote[]
+  favorites          Favorite[]
+  notifications      Notification[]
+  reports            Report[]                 @relation("Reporter")
+  announcements      Announcement[]
+  aiConversations    AIConversation[]
+  aiUsage            AIUsage[]
+  auditLogs          AuditLog[]               @relation("Operator")
+  uploadedFiles      UploadedFile[]
+  knowledgeDocuments KnowledgeDocument[]
+
+  @@index([role, status])
+  @@index([identityBadge])
+}
+
+model Session {
+  id             String   @id @default(cuid())
+  tokenHash      String   @unique
+  userId         String
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sessionVersion Int
+  expiresAt      DateTime
+  ipAddress      String?
+  userAgent      String?
+  createdAt      DateTime @default(now())
+  lastSeenAt     DateTime @default(now())
+
+  @@index([userId, expiresAt])
+}
+
+model Account {
+  id                String   @id @default(cuid())
+  userId            String
+  provider          String
+  providerAccountId String
+  createdAt         DateTime @default(now())
+
+  @@unique([provider, providerAccountId])
+}
+
+model EmailVerificationToken {
+  id        String    @id @default(cuid())
+  tokenHash String    @unique
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  @@index([userId, createdAt])
+}
+
+model PasswordResetToken {
+  id        String    @id @default(cuid())
+  tokenHash String    @unique
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  @@index([userId, createdAt])
+}
+
+model Category {
+  id          String     @id @default(cuid())
+  name        String     @unique
+  slug        String     @unique
+  description String?
+  sortOrder   Int        @default(0)
+  isActive    Boolean    @default(true)
+  questions   Question[]
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+}
+
+model Tag {
+  id        String        @id @default(cuid())
+  name      String        @unique
+  slug      String        @unique
+  isActive  Boolean       @default(true)
+  questions QuestionTag[]
+  createdAt DateTime      @default(now())
+}
+
+model Question {
+  id               String         @id @default(cuid())
+  title            String         @db.VarChar(150)
+  slug             String         @unique
+  content          String
+  authorId         String
+  author           User           @relation(fields: [authorId], references: [id])
+  categoryId       String
+  category         Category       @relation(fields: [categoryId], references: [id])
+  status           ContentStatus  @default(PUBLISHED)
+  isSolved         Boolean        @default(false)
+  acceptedAnswerId String?        @unique
+  acceptedAnswer   Answer?        @relation("AcceptedAnswer", fields: [acceptedAnswerId], references: [id])
+  isPinned         Boolean        @default(false)
+  isLocked         Boolean        @default(false)
+  viewCount        Int            @default(0)
+  mergedIntoId     String?
+  mergedInto       Question?      @relation("QuestionMerge", fields: [mergedIntoId], references: [id])
+  mergedQuestions  Question[]     @relation("QuestionMerge")
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  deletedAt        DateTime?
+  answers          Answer[]       @relation("QuestionAnswers")
+  tags             QuestionTag[]
+  votes            QuestionVote[]
+  favorites        Favorite[]
+  comments         Comment[]
+
+  @@index([status, createdAt])
+  @@index([categoryId, status])
+  @@index([isSolved, isPinned])
+}
+
+model QuestionTag {
+  questionId String
+  tagId      String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  tag        Tag      @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, tagId])
+}
+
+model Answer {
+  id         String        @id @default(cuid())
+  content    String
+  questionId String
+  question   Question      @relation("QuestionAnswers", fields: [questionId], references: [id])
+  acceptedBy Question?     @relation("AcceptedAnswer")
+  authorId   String
+  author     User          @relation(fields: [authorId], references: [id])
+  isOfficial Boolean       @default(false)
+  status     ContentStatus @default(PUBLISHED)
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+  deletedAt  DateTime?
+  votes      AnswerVote[]
+  comments   Comment[]
+
+  @@index([questionId, status, createdAt])
+}
+
+model Comment {
+  id         String    @id @default(cuid())
+  content    String    @db.VarChar(1000)
+  authorId   String
+  author     User      @relation(fields: [authorId], references: [id])
+  questionId String?
+  question   Question? @relation(fields: [questionId], references: [id])
+  answerId   String?
+  answer     Answer?   @relation(fields: [answerId], references: [id])
+  parentId   String?
+  parent     Comment?  @relation("CommentReply", fields: [parentId], references: [id])
+  replies    Comment[] @relation("CommentReply")
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  isHidden   Boolean   @default(false)
+  deletedAt  DateTime?
+
+  @@index([questionId, createdAt])
+  @@index([answerId, createdAt])
+}
+
+model QuestionVote {
+  userId     String
+  questionId String
+  value      Int      @default(1)
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  createdAt  DateTime @default(now())
+
+  @@id([userId, questionId])
+}
+
+model AnswerVote {
+  userId    String
+  answerId  String
+  value     Int      @default(1)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  answer    Answer   @relation(fields: [answerId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@id([userId, answerId])
+}
+
+model Favorite {
+  userId     String
+  questionId String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  createdAt  DateTime @default(now())
+
+  @@id([userId, questionId])
+}
+
+model Notification {
+  id        String           @id @default(cuid())
+  userId    String
+  user      User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type      NotificationType
+  title     String
+  content   String?
+  link      String?
+  readAt    DateTime?
+  createdAt DateTime         @default(now())
+  deletedAt DateTime?
+
+  @@index([userId, readAt, createdAt])
+}
+
+model Report {
+  id           String       @id @default(cuid())
+  reporterId   String
+  reporter     User         @relation("Reporter", fields: [reporterId], references: [id])
+  targetType   String
+  targetId     String
+  reason       ReportReason
+  details      String?
+  status       ReportStatus @default(PENDING)
+  resolution   String?
+  resolvedById String?
+  createdAt    DateTime     @default(now())
+  resolvedAt   DateTime?
+
+  @@index([status, createdAt])
+}
+
+model Announcement {
+  id          String    @id @default(cuid())
+  title       String
+  summary     String
+  content     String
+  authorId    String
+  author      User      @relation(fields: [authorId], references: [id])
+  isPinned    Boolean   @default(false)
+  isPublic    Boolean   @default(true)
+  publishedAt DateTime  @default(now())
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  deletedAt   DateTime?
+
+  @@index([isPublic, isPinned, publishedAt])
+}
+
+model KnowledgeDocument {
+  id           String           @id @default(cuid())
+  title        String
+  source       String?
+  category     String?
+  content      String?
+  fileId       String?
+  status       DocumentStatus   @default(PENDING)
+  errorMessage String?
+  isEnabled    Boolean          @default(true)
+  uploadedById String
+  uploadedBy   User             @relation(fields: [uploadedById], references: [id])
+  chunks       KnowledgeChunk[]
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+}
+
+model KnowledgeChunk {
+  id         String                       @id @default(cuid())
+  documentId String
+  document   KnowledgeDocument            @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  content    String
+  chunkIndex Int
+  embedding  Unsupported("vector(1536)")?
+  metadata   Json?
+  createdAt  DateTime                     @default(now())
+
+  @@unique([documentId, chunkIndex])
+}
+
+model AIConversation {
+  id        String      @id @default(cuid())
+  userId    String
+  user      User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String      @default("新对话")
+  messages  AIMessage[]
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+  deletedAt DateTime?
+
+  @@index([userId, updatedAt])
+}
+
+model AIMessage {
+  id             String         @id @default(cuid())
+  conversationId String
+  conversation   AIConversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  role           MessageRole
+  content        String
+  sources        Json?
+  feedback       Int?
+  createdAt      DateTime       @default(now())
+
+  @@index([conversationId, createdAt])
+}
+
+model AIUsage {
+  id           String   @id @default(cuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id])
+  date         DateTime @db.Date
+  count        Int      @default(0)
+  inputTokens  Int      @default(0)
+  outputTokens Int      @default(0)
+
+  @@unique([userId, date])
+}
+
+model SiteSetting {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt
+}
+
+model AcademicYear {
+  id                     String                  @id @default(cuid())
+  name                   String                  @unique
+  startsAt               DateTime
+  endsAt                 DateTime
+  allowIdentityChange    Boolean                 @default(true)
+  cooldownDays           Int                     @default(30)
+  showSelfSelectedNotice Boolean                 @default(true)
+  isCurrent              Boolean                 @default(false)
+  createdAt              DateTime                @default(now())
+  promotions             AcademicYearPromotion[]
+}
+
+model AcademicYearPromotion {
+  id             String       @id @default(cuid())
+  academicYearId String       @unique
+  academicYear   AcademicYear @relation(fields: [academicYearId], references: [id])
+  affectedCount  Int
+  preview        Json
+  executedById   String
+  executedAt     DateTime     @default(now())
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  operatorId String
+  operator   User     @relation("Operator", fields: [operatorId], references: [id])
+  action     String
+  targetType String
+  targetId   String
+  beforeData Json?
+  afterData  Json?
+  ipAddress  String?
+  userAgent  String?
+  createdAt  DateTime @default(now())
+
+  @@index([operatorId, createdAt])
+  @@index([targetType, targetId])
+}
+
+model UploadedFile {
+  id           String   @id @default(cuid())
+  uploaderId   String
+  uploader     User     @relation(fields: [uploaderId], references: [id])
+  originalName String
+  storageName  String   @unique
+  mimeType     String
+  size         Int
+  sha256       String
+  createdAt    DateTime @default(now())
+}

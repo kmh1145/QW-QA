@@ -1,0 +1,11 @@
+node_modules
+.next
+.env
+coverage
+playwright-report
+test-results
+public/uploads/*
+!public/uploads/.gitkeep
+*.log
+*.tsbuildinfo
+.DS_Store

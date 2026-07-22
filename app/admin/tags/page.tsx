@@ -1,0 +1,1 @@
+import { db } from "@/lib/db"; export default async function Page(){const rows=await db.tag.findMany({include:{_count:{select:{questions:true}}},orderBy:{name:"asc"}});return <><h1 className="text-3xl font-bold">标签管理</h1><div className="mt-5 flex flex-wrap gap-3">{rows.map(x=><span className="card" key={x.id}>{x.name} · {x._count.questions}</span>)}</div></>}

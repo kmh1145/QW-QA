@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+html { scroll-behavior: smooth; }
+body { @apply bg-slate-50 text-slate-900 antialiased selection:bg-brand-200 selection:text-brand-950 dark:bg-slate-950 dark:text-slate-100; }
+a, button, input, textarea, select { @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-600 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-950; }
+input[type="checkbox"], input[type="radio"] {
+  appearance: none;
+  width: 1.15rem;
+  height: 1.15rem;
+  flex: 0 0 auto;
+  border: 1.5px solid #94a3b8;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: border-color 150ms, background-color 150ms, box-shadow 150ms;
+}
+input[type="checkbox"] { border-radius: 0.32rem; }
+input[type="radio"] { border-radius: 9999px; }
+input[type="checkbox"]:checked {
+  border-color: #7c3aed;
+  background-color: #7c3aed;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m3.2 8.2 3 3 6.6-7' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+input[type="radio"]:checked {
+  border-color: #7c3aed;
+  background: radial-gradient(circle, #7c3aed 0 42%, white 46%);
+}
+input[type="checkbox"]:disabled, input[type="radio"]:disabled { cursor: not-allowed; opacity: 0.55; }
+select[multiple] { min-height: 8rem; }
+select[multiple] option:checked { background: #ede9fe linear-gradient(0deg, #ede9fe 0%, #ede9fe 100%); color: #4c1d95; }
+@media (prefers-color-scheme: dark) {
+  input[type="checkbox"], input[type="radio"] { border-color: #64748b; background-color: #0f172a; }
+  input[type="radio"]:checked { background: radial-gradient(circle, #a78bfa 0 42%, #0f172a 46%); }
+}
+.dark input[type="checkbox"], .dark input[type="radio"] { border-color: #64748b; background-color: #0f172a; }
+.dark input[type="checkbox"]:checked { border-color: #a78bfa; background-color: #7c3aed; }
+.dark input[type="radio"]:checked { border-color: #a78bfa; background: radial-gradient(circle, #a78bfa 0 42%, #0f172a 46%); }
+@layer components {
+  .container-page { @apply mx-auto w-full max-w-6xl px-4 sm:px-6; }
+  .card { @apply rounded-2xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-900; }
+  .btn { @apply inline-flex min-h-11 items-center justify-center whitespace-nowrap rounded-xl bg-brand-600 px-4 py-2 font-medium text-white transition hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-secondary { @apply btn border border-slate-300 bg-white text-slate-800 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800; }
+  .btn-danger { @apply inline-flex min-h-11 items-center justify-center rounded-xl border border-red-300 bg-white px-4 py-2 font-medium text-red-700 transition hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 dark:border-red-800 dark:bg-slate-900 dark:text-red-300 dark:hover:bg-red-950/40; }
+  .input { @apply min-h-11 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-slate-900 placeholder:text-slate-400 focus:border-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-600/20 dark:border-slate-700 dark:bg-slate-900 dark:text-white; }
+  .label { @apply mb-1.5 block text-sm font-medium; }
+  .choice-label { @apply inline-flex cursor-pointer items-center gap-2 text-sm text-slate-700 dark:text-slate-200; }
+}

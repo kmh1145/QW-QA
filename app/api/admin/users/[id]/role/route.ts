@@ -1,0 +1,8 @@
+import { Prisma } from "@prisma/client";
+import { db } from "@/lib/db"; import { AuthError, requireApiUser } from "@/lib/auth"; import { assertSameOrigin } from "@/lib/rate-limit"; import { audit } from "@/lib/audit"; import { fail, handleError, ok } from "@/lib/api";
+export async function POST(request: Request, { params }: { params: Promise<{ id: string }> }) {
+  try { assertSameOrigin(request); const admin = await requireApiUser(); if (admin.role !== "ADMIN") return fail("需要管理员权限", 403); const { id } = await params; const role = (await request.json()).role; if (role !== "USER" && role !== "ADMIN") return fail("权限值无效", 422); const target = await db.user.findUnique({ where: { id } }); if (!target) return fail("用户不存在", 404); if (target.role === role) return ok({ role });
+    await db.$transaction(async (tx) => { if (target.role === "ADMIN" && role === "USER") { const admins = await tx.user.count({ where: { role: "ADMIN", deletedAt: null } }); if (admins <= 1) throw new Error("LAST_ADMIN"); } await tx.user.update({ where: { id }, data: { role } }); await tx.notification.create({ data: { userId: id, type: "ROLE_CHANGED", title: role === "ADMIN" ? "你已被授予管理员权限" : "你的管理员权限已被取消", link: "/me" } }); }, { isolationLevel: Prisma.TransactionIsolationLevel.Serializable });
+    await audit(admin.id, role === "ADMIN" ? "GRANT_ADMIN" : "REVOKE_ADMIN", "User", id, { role: target.role }, { role }); return ok({ role });
+  } catch (e) { if (e instanceof Error && e.message === "LAST_ADMIN") return fail("不能取消最后一名管理员的权限", 409); if (e instanceof AuthError) return fail(e.message, e.status); return handleError(e); }
+}

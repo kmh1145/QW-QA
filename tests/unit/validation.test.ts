@@ -1,0 +1,2 @@
+import { describe, expect, it } from "vitest"; import { emailSchema, passwordSchema, usernameSchema } from "@/lib/validation";
+describe("账号输入验证",()=>{it("接受中文、字母、数字和下划线用户名",()=>{expect(usernameSchema.parse("湾区_Student1")).toBe("湾区_Student1")});it("拒绝官方冒充名称",()=>{expect(()=>usernameSchema.parse("管理员")).toThrow()});it("邮箱标准化为小写",()=>{expect(emailSchema.parse(" Test@Example.COM ")).toBe("test@example.com")});it("密码至少含字母和数字",()=>{expect(passwordSchema.safeParse("abcdefgh").success).toBe(false);expect(passwordSchema.safeParse("abc12345").success).toBe(true)})});

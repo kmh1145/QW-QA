@@ -1,0 +1,2 @@
+import type { Metadata } from "next"; import { AuthForm } from "@/components/auth-form";
+export const metadata: Metadata = { title: "忘记密码", robots: { index: false, follow: false } }; export default function ForgotPage() { return <main className="mx-auto max-w-md px-4 py-12"><h1 className="mb-3 text-3xl font-bold">找回密码</h1><p className="mb-6 text-sm text-slate-500">无论邮箱是否注册，系统都会给出相同提示。</p><AuthForm mode="forgot" /></main>; }

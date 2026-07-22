@@ -1,0 +1,2 @@
+import { db } from "@/lib/db"; import { AuthError, requireApiUser } from "@/lib/auth"; import { assertSameOrigin } from "@/lib/rate-limit"; import { fail, handleError, ok } from "@/lib/api";
+export async function POST(request: Request) { try { assertSameOrigin(request); const user = await requireApiUser(); const result = await db.notification.updateMany({ where: { userId: user.id, readAt: null }, data: { readAt: new Date() } }); return ok({ count: result.count }); } catch (e) { if (e instanceof AuthError) return fail(e.message, e.status); return handleError(e); } }

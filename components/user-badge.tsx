@@ -1,0 +1,4 @@
+import type { IdentityBadge, Role } from "@prisma/client";
+const labels: Record<IdentityBadge, string> = { NONE: "暂无标识", GRADE_1: "高一", GRADE_2: "高二", GRADE_3: "高三", ALUMNI: "已毕业学长学姐", TEACHER: "学校教师" };
+export function Badge({ role, identity, compact = false }: { role: Role; identity: IdentityBadge; compact?: boolean }) { return <span className="inline-flex flex-wrap gap-1">{role === "ADMIN" && <span className="rounded-md border border-purple-300 bg-purple-50 px-2 py-0.5 text-xs font-semibold text-purple-800 dark:bg-purple-950 dark:text-purple-200">管理员</span>}{identity !== "NONE" && !compact && <span className="rounded-md border border-emerald-300 bg-emerald-50 px-2 py-0.5 text-xs font-semibold text-emerald-800 dark:bg-emerald-950 dark:text-emerald-200">{labels[identity]}</span>}</span>; }
+export const identityLabel = (identity: IdentityBadge) => labels[identity];
