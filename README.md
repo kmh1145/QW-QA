@@ -92,6 +92,24 @@ npm run admin:init
 
 生产 Seed 设置 `SEED_EXAMPLES=false`，避免创建标有“测试数据”的公告、FAQ、问题和回答。
 
+## 历史问答表格迁移
+
+仓库内置了从“清华附中湾区学校新生QA.xlsx”整理出的迁移数据。先预览数量和分类，再确认写入：
+
+```bash
+npm run data:import-xlsx
+npm run data:import-xlsx -- --apply
+```
+
+使用 Docker Compose 时可以在 Web 容器内执行：
+
+```bash
+docker compose exec web npm run data:import-xlsx
+docker compose exec web npm run data:import-xlsx -- --apply
+```
+
+该命令可以安全重复执行：问题和回答使用来源工作表、行号及列号生成稳定 ID，重复执行会更新已有记录而不会重复创建。脚本会创建停用状态的“表格迁移用户”，为内容添加“历史问答”标签和非官方资料提示，并对少量可识别的真实姓名做脱敏。迁移前应先运行数据库迁移和 Seed，确保默认分类存在。
+
 ## SMTP 与 Mailpit 测试
 
 Compose 默认配置为 `mailpit:1025`、无认证、`SMTP_SECURE=false`。注册后打开 `http://localhost:8025`，进入验证邮件并点击链接。忘记密码邮件也会出现在该收件箱。
@@ -196,7 +214,8 @@ app/                 Next.js 页面与 Route Handlers
 components/          表单、问答卡片、导航、后台操作组件
 lib/                 认证、安全、权限、验证、邮件、AI、数据库
 prisma/              Schema、迁移、Seed
-scripts/             初始管理员命令
+scripts/             初始管理员和历史问答迁移命令
+data/imports/        经检查、脱敏的历史问答迁移数据
 tests/               Vitest 单元/集成测试
 e2e/                 Playwright 场景
 Dockerfile           多阶段生产镜像

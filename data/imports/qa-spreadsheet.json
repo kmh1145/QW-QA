@@ -1,0 +1,4439 @@
+{
+  "formatVersion": 1,
+  "sourceFile": "清华附中湾区学校新生QA.xlsx",
+  "sourceSha256": "c2da05d3a890c380bc446f26619dd6b2a7cb156e783b9c21f09556a1592d4965",
+  "questions": [
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 2
+      },
+      "title": "为什么没人问",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "好问题"
+        },
+        {
+          "column": 3,
+          "content": "省流:->"
+        },
+        {
+          "column": 4,
+          "content": "猜你想问：对于绝大部分手表、手机、电子产品、耳饰、头发、仪容仪表等都管的不严，只要别太猖狂就行（谈恋爱也是"
+        },
+        {
+          "column": 5,
+          "content": "猜你想问：早上6:30~7:00起床，中午12:20~2:00吃饭加午睡，下午5:25~7:00放学，晚上7:00~10:00晚自习"
+        },
+        {
+          "column": 6,
+          "content": "猜你想问:食堂很好吃，会有建议墙，会有负责人回复，但是要抢饭"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 3
+      },
+      "title": "前几年研学去哪里了",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "26年高一下学期去深圳"
+        },
+        {
+          "column": 3,
+          "content": "25年高一下学期的暑假去了北京"
+        },
+        {
+          "column": 4,
+          "content": "上一年高一去了陈家祠，去了深圳，环大学城16公里也算了。"
+        },
+        {
+          "column": 5,
+          "content": "大学有深圳大学、港科广、深北莫这些"
+        },
+        {
+          "column": 6,
+          "content": "23届去了港科大的南沙校区还有广汽的工厂"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 4
+      },
+      "title": "宿舍几人寝",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "6人，具体看当届学校安排"
+        },
+        {
+          "column": 3,
+          "content": "不出意外。高一到高三都6人"
+        },
+        {
+          "column": 4,
+          "content": "6"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 5
+      },
+      "title": "手机查的严吗",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "不是很严"
+        },
+        {
+          "column": 3,
+          "content": "9月+12月+4月防一防就可以了，平时注意一下也要"
+        },
+        {
+          "column": 4,
+          "content": "别太猖"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 6
+      },
+      "title": "社团活动怎么样",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "貌似很少"
+        },
+        {
+          "column": 3,
+          "content": "在进步了，现在还行"
+        },
+        {
+          "column": 4,
+          "content": "上学期有社团课了，每两周一次，不过具体是什么活动看你社长安排"
+        },
+        {
+          "column": 5,
+          "content": "两周一次，容易被占，然后有各种开放日活动时会有些展示"
+        },
+        {
+          "column": 6,
+          "content": "办的最好的是街舞社 动漫社 摇滚社"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 7
+      },
+      "title": "怎么分班",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "大概是按中考 还会根据衔接课考试 特长生等等"
+        },
+        {
+          "column": 3,
+          "content": "高一上分班叫随机大题按成绩但不绝对，后面的话就是按大考。"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 8
+      },
+      "title": "运动会大体有什么活动",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有分田径运动会和趣味运动会，田径一般上学期，趣味一般下学期"
+        },
+        {
+          "column": 3,
+          "content": "趣味运动会很好玩，到时候看"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 9
+      },
+      "title": "不参加社团会成为另类吗",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "当然不会，没有社团活动的人大概率只会获得每两周一节的美妙的自习课"
+        },
+        {
+          "column": 3,
+          "content": "不会呀 很多人不参加的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 10
+      },
+      "title": "烫头发查不查",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "一学期查一次不算太严"
+        },
+        {
+          "column": 3,
+          "content": "可以说自己自然卷"
+        },
+        {
+          "column": 4,
+          "content": "别太明显"
+        },
+        {
+          "column": 5,
+          "content": "完全一点事都没有"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 11
+      },
+      "title": "下午放学时间有多少",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "一个多小时"
+        },
+        {
+          "column": 3,
+          "content": "下午5：25放学到7：00"
+        },
+        {
+          "column": 5,
+          "content": "放学来踢球呀"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 12
+      },
+      "title": "社团活动在什么时候",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "我们最近这个学期是每两周一次，在周四下午的最后一节课（单周还是双周咱不记得了…"
+        },
+        {
+          "column": 3,
+          "content": "如果没有参加社团这节课就在班里自习"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 13
+      },
+      "title": "午休是回宿舍吗 午休时间多长啊",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "住宿生在宿舍 一个小时左右"
+        },
+        {
+          "column": 3,
+          "content": "十二点20下课到两点"
+        },
+        {
+          "column": 4,
+          "content": "有错峰吃饭制，早的十二点二十晚的三十，一个月换一次"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 14
+      },
+      "title": "体育课累吗",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "看选什么课 看老师"
+        },
+        {
+          "column": 3,
+          "content": "体育课也要选课"
+        },
+        {
+          "column": 4,
+          "content": "看选什么模块课，也看老师"
+        },
+        {
+          "column": 5,
+          "content": "建议选篮球（如果你不擅长运动或不太喜欢运动的，篮球课会有一部分时间给你摸鱼自由活动"
+        },
+        {
+          "column": 6,
+          "content": "我喜欢之前足球选修的在浙江一个梯队踢过球的人美心善女老师🥹"
+        },
+        {
+          "column": 7,
+          "content": "看模块不同模块的体感不一样到时候会有详细介绍的开学会有选课教程"
+        },
+        {
+          "column": 8,
+          "content": "无论如何远离田径就对了。"
+        },
+        {
+          "column": 9,
+          "content": "夯必须是篮球足球"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 15
+      },
+      "title": "垫底压力大吗",
+      "categorySlug": "study-experience",
+      "answers": [
+        {
+          "column": 2,
+          "content": "你不给自己压力就不会有压力其实（目移"
+        },
+        {
+          "column": 3,
+          "content": "老师应该是不会过多压力学生的"
+        },
+        {
+          "column": 5,
+          "content": "自己给自己压力"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 16
+      },
+      "title": "管不管打耳洞",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "这个貌似还好，打满耳都没啥人管应该"
+        },
+        {
+          "column": 3,
+          "content": "其实清湾在仪容仪表这方面没怎么管（"
+        },
+        {
+          "column": 4,
+          "content": "看班主任"
+        },
+        {
+          "column": 6,
+          "content": "检查的时候戴透明的树脂耳钉就好了"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 17
+      },
+      "title": "宿舍小台灯➕帘子自己学习会被扣分吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "会进来提醒太亮的话，但是一般不管，太晚会提醒一下"
+        },
+        {
+          "column": 3,
+          "content": "有些宿管很好，有些宿管很严"
+        },
+        {
+          "column": 4,
+          "content": "一般不会"
+        },
+        {
+          "column": 5,
+          "content": "基本不会"
+        },
+        {
+          "column": 6,
+          "content": "某同学nb"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 18
+      },
+      "title": "周日要回去上晚修吗",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "要"
+        },
+        {
+          "column": 3,
+          "content": "要的"
+        },
+        {
+          "column": 4,
+          "content": "可以不回，自愿性很强"
+        },
+        {
+          "column": 5,
+          "content": "不想上的话找个借口跟班主任说就好了"
+        },
+        {
+          "column": 6,
+          "content": "这个其实看班主任有的班主任不咋管，随便请假"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 19
+      },
+      "title": "研学费用怎么说，偏高还是一般",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "看老师公告"
+        },
+        {
+          "column": 3,
+          "content": "短途便宜长途正常"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 20
+      },
+      "title": "要自己买床帘不",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "要"
+        },
+        {
+          "column": 3,
+          "content": "要的"
+        },
+        {
+          "column": 4,
+          "content": "强烈推荐买便于晚上学习"
+        },
+        {
+          "column": 5,
+          "content": "床帘是神，非常推荐买"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 21
+      },
+      "title": "一般最晚可以几点起床",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "你能卡极限的话七点十五都行"
+        },
+        {
+          "column": 3,
+          "content": "看你出门速度 七点后完全来得及"
+        },
+        {
+          "column": 4,
+          "content": "早睡早起吧"
+        },
+        {
+          "column": 5,
+          "content": "七点多完全🉑"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 22
+      },
+      "title": "染发不漂发管不管",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "管，不明显的不怕"
+        },
+        {
+          "column": 3,
+          "content": "管吧？暂时没见过在学校染发的"
+        },
+        {
+          "column": 4,
+          "content": "处于正常范围"
+        },
+        {
+          "column": 5,
+          "content": "管，查到会给发整改通知单，平常不管。"
+        },
+        {
+          "column": 6,
+          "content": "除了年级统查，其他时候不管，上学期染了个黄毛回去，不吃压力"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 23
+      },
+      "title": "有化学之类的社团吗，做实验玩的那种 （会让做危险的吗）",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "没有，想做可以向老师申请"
+        },
+        {
+          "column": 3,
+          "content": "让老师判断，你要列出一个实\n验流程表"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 24
+      },
+      "title": "食堂好吃吗",
+      "categorySlug": "canteen-card",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有好吃的菜"
+        },
+        {
+          "column": 3,
+          "content": "我个人认为不错"
+        },
+        {
+          "column": 4,
+          "content": "个人认为好吃，还可以和食堂提建议"
+        },
+        {
+          "column": 5,
+          "content": "食堂还可以提建议，会有人回复的"
+        },
+        {
+          "column": 6,
+          "content": "好吃前提是得抢到，不过有时候发癫给素菜里狂加辣"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 25
+      },
+      "title": "体育课一周几节",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "一周两节连堂的模块课"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 26
+      },
+      "title": "学习压力会大吗",
+      "categorySlug": "study-experience",
+      "answers": [
+        {
+          "column": 2,
+          "content": "应该是正常高中的学习状态吧，比初中忙得多，周测也会有点多，还是要做好上高中的心理准备的（"
+        },
+        {
+          "column": 3,
+          "content": "周测很多"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 27
+      },
+      "title": "入团啥的位置多吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "较少，班内选举后还要考核"
+        },
+        {
+          "column": 3,
+          "content": "少 一个班1-2个"
+        },
+        {
+          "column": 4,
+          "content": "基本看人情票"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 28
+      },
+      "title": "推荐进社团吗 会不会很忙",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "不会很忙"
+        },
+        {
+          "column": 3,
+          "content": "不忙，基本上就是玩"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 29
+      },
+      "title": "学校有没有小茂密",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "可能刷新"
+        },
+        {
+          "column": 3,
+          "content": "有，如果运气好可以在教学楼到宿舍的那段路上刷新"
+        },
+        {
+          "column": 4,
+          "content": "有一只小橘特别可爱会卖萌"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 30
+      },
+      "title": "高一只重点学选的课可以吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "还要学考所以最好都学"
+        },
+        {
+          "column": 3,
+          "content": "可以，但自己心里要数，还要学考呢"
+        },
+        {
+          "column": 4,
+          "content": "除非笃定自己一定不会选这几个科目，而且不走综评，学考也只是拿个相对可以的成绩的话那你就可以这样"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 31
+      },
+      "title": "冬天校服保暖吗？怕冷……",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "可以自己加衣服 冲锋衣也挺保暖的"
+        },
+        {
+          "column": 3,
+          "content": "够的 冬天也不怎么管穿自己的衣服"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 32
+      },
+      "title": "食堂饭菜会更新吗",
+      "categorySlug": "canteen-card",
+      "answers": [
+        {
+          "column": 2,
+          "content": "会的 大概一个月一次 平常也会随机更新"
+        },
+        {
+          "column": 3,
+          "content": "会，而且如果你给食堂提一些建设性建议的话，还有很大概率会被采纳"
+        },
+        {
+          "column": 4,
+          "content": "会的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 33
+      },
+      "title": "会经常测验吗",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "会，小测会很多，上了高二高三更甚"
+        },
+        {
+          "column": 3,
+          "content": "基本每天下午都会测一次"
+        },
+        {
+          "column": 4,
+          "content": "很多 多到脱敏 习惯就好"
+        },
+        {
+          "column": 5,
+          "content": "除了周二下午每天都有基本上"
+        },
+        {
+          "column": 6,
+          "content": "周五也有"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 34
+      },
+      "title": "体育课选课大概流程是怎样的 有什么课可以选",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "线上定时选课"
+        },
+        {
+          "column": 3,
+          "content": "会提前发通知让大家准备在钉钉上抢课，有田径、游泳、击剑、射击、篮球、足球"
+        },
+        {
+          "column": 4,
+          "content": "千万定好闹钟。本人因睡过头荣获两次田径"
+        },
+        {
+          "column": 5,
+          "content": "钉钉上，很多时候是拼网速"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 35
+      },
+      "title": "首饰让带吗？",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "原则上不行，不管就能戴"
+        },
+        {
+          "column": 3,
+          "content": "一般不管"
+        },
+        {
+          "column": 4,
+          "content": "原则上不行，但得看发布的检查通知，检查的时候不戴就好啦"
+        },
+        {
+          "column": 5,
+          "content": "更多情况请查看10、16、22行"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 36
+      },
+      "title": "窗帘可以选黑色遮光的吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "可以"
+        },
+        {
+          "column": 3,
+          "content": "ok"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 37
+      },
+      "title": "高一暑假有竞赛相关课程吗？",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 38
+      },
+      "title": "校领导要求严格吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "还好"
+        },
+        {
+          "column": 3,
+          "content": "要求和要求，行动是行动。"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 39
+      },
+      "title": "头发长度有要求吗",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "相对别的学校比较松，别太猖狂"
+        },
+        {
+          "column": 3,
+          "content": "基本不管 一个学期检查一次仪容仪表"
+        },
+        {
+          "column": 4,
+          "content": "不能染发，烫头不能太明显，男生头发不能太长"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 40
+      },
+      "title": "军训严格吗",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "看教官"
+        },
+        {
+          "column": 3,
+          "content": "不算严格，挺开心的。"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 41
+      },
+      "title": "晚修会有老师答疑吗",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "会的"
+        },
+        {
+          "column": 3,
+          "content": "老师会轮班，有一些在，有一些不在"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 42
+      },
+      "title": "军训可以摸鱼吗",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "装病"
+        },
+        {
+          "column": 3,
+          "content": "在医务室待七天吧"
+        },
+        {
+          "column": 4,
+          "content": "我那时候教官人挺好"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 43
+      },
+      "title": "中午什么时候下课什么时候上课",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "会有神人轮换制度，一个月12点20一个月12点半下课 下午2点20上课"
+        },
+        {
+          "column": 3,
+          "content": "2点10！！！"
+        },
+        {
+          "column": 4,
+          "content": "都是下午两点十分上课"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 44
+      },
+      "title": "排座位会按成绩吗",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "一般不会，好像是不让这样"
+        },
+        {
+          "column": 3,
+          "content": "看班主任"
+        },
+        {
+          "column": 4,
+          "content": "一般不会吧，看班主任，但应该理论上是不允许这样的"
+        },
+        {
+          "column": 5,
+          "content": "看班主任，大部分还是比较公平"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 45
+      },
+      "title": "允许带周边什么的吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "随便带，这又不是监狱"
+        },
+        {
+          "column": 3,
+          "content": "娃娃周边啊都可以的"
+        },
+        {
+          "column": 4,
+          "content": "柜子摆满都不管，不乱就行了"
+        },
+        {
+          "column": 5,
+          "content": "挺多人把立牌放在桌面陪自己的，放宿舍也行"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 46
+      },
+      "title": "女生宿舍的吹风机够用吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "够用 偶尔高峰期人多等几分钟就好"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 47
+      },
+      "title": "军训有跑操吗",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "看教官？我记得我们当时有一天晨跑了两公里，但后面下雨了好像就没了"
+        },
+        {
+          "column": 3,
+          "content": "没有吧"
+        },
+        {
+          "column": 4,
+          "content": "只跑了一次"
+        },
+        {
+          "column": 5,
+          "content": "有晨跑"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 48
+      },
+      "title": "感觉你们都好有爱嗯嗯",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "学校小，大家都是一家人"
+        },
+        {
+          "column": 3,
+          "content": "欢迎来到青蛙大家庭"
+        },
+        {
+          "column": 4,
+          "content": "(￣︶￣)"
+        },
+        {
+          "column": 5,
+          "content": "学弟学妹们比较可爱嘻嘻"
+        },
+        {
+          "column": 6,
+          "content": "都为了爱爱爱"
+        },
+        {
+          "column": 7,
+          "content": "对。"
+        },
+        {
+          "column": 8,
+          "content": "还在爱爱爱"
+        },
+        {
+          "column": 9,
+          "content": "清湾人少，氛围真的非常好"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 49
+      },
+      "title": "床帘是什么尺寸啊，有推荐吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "90厘米宽，选宿舍款的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 50
+      },
+      "title": "可以戴智能手表吗？",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "可以的 检查前记得摘下来或者藏袖子里"
+        },
+        {
+          "column": 3,
+          "content": "小天才那种会管，Apple Watch 那种明面上管实际不管"
+        },
+        {
+          "column": 4,
+          "content": "我舍友天天带好像没啥事"
+        },
+        {
+          "column": 5,
+          "content": "规定是有通讯功能的不能带，运动手环无人管"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 51
+      },
+      "title": "中午午休要吃饭睡觉时间真的够吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "够的够的"
+        },
+        {
+          "column": 3,
+          "content": "甚至可以洗头"
+        },
+        {
+          "column": 4,
+          "content": "中午还可以回宿舍啊"
+        },
+        {
+          "column": 5,
+          "content": "饭堂排队有时候有点久"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 52
+      },
+      "title": "街舞社需要舞蹈基础么，身材很一般可以么",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "肯定还是需要一定的舞蹈基础啦，身材是没关系的！"
+        },
+        {
+          "column": 3,
+          "content": "别太差就行。"
+        },
+        {
+          "column": 4,
+          "content": "热爱即可"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 53
+      },
+      "title": "啥时候出分班结果啊",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "军训前两三天我记得"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 54
+      },
+      "title": "可以要走读生带吃的回来吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "走读生同意就可以呀"
+        },
+        {
+          "column": 3,
+          "content": "你求它们就行"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 55
+      },
+      "title": "校运会办几天啊",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "1.5"
+        },
+        {
+          "column": 3,
+          "content": "之前是一天多，但是今年有两个校区，而且大扩招人数。今年可能会久一点吧"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 56
+      },
+      "title": "早读读多久",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "七点半到七点五十五"
+        },
+        {
+          "column": 3,
+          "content": "25min"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 57
+      },
+      "title": "早上几点起床，几点早读",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "06:30起，早读7：30，但是二十分就要关宿舍二楼门气死人了"
+        },
+        {
+          "column": 3,
+          "content": "7点起最爽我觉得"
+        },
+        {
+          "column": 4,
+          "content": "极限一点7:15也可以"
+        },
+        {
+          "column": 5,
+          "content": "住宿七点起床吃个早饭完全没问题"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 58
+      },
+      "title": "谈恋爱管的严吗所以",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "别太猖狂被拍了或者被看到"
+        },
+        {
+          "column": 3,
+          "content": "不严（？，只要不作妖、不张扬、不影响班级和自己的学习，老师也都睁一只眼闭一只眼，甚至有的会吃瓜"
+        },
+        {
+          "column": 4,
+          "content": "不咋管"
+        },
+        {
+          "column": 5,
+          "content": "老师会八卦的程度吧，通常不管"
+        },
+        {
+          "column": 6,
+          "content": "不影响学习，老师一般不强制干预。"
+        },
+        {
+          "column": 7,
+          "content": "看老师"
+        },
+        {
+          "column": 8,
+          "content": "不要影响学习"
+        },
+        {
+          "column": 9,
+          "content": "不管，甚至有的老师会一起吃瓜"
+        },
+        {
+          "column": 10,
+          "content": "chy校长说过支持健康恋爱相互成就"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 59
+      },
+      "title": "可以带零食吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "随便带"
+        },
+        {
+          "column": 3,
+          "content": "有些时候会查，但比较少"
+        },
+        {
+          "column": 4,
+          "content": "🉑"
+        },
+        {
+          "column": 5,
+          "content": "🉑"
+        },
+        {
+          "column": 6,
+          "content": "看老师吧"
+        },
+        {
+          "column": 7,
+          "content": "可以的，不上课吃被发现老师都不管，甚至看见超级零食包会发出惊叹然后让你放好"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 60
+      },
+      "title": "周五几点放学呀，周天最晚几点到校",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "五点二十五，和平常一样"
+        },
+        {
+          "column": 3,
+          "content": "最晚晚上七点上晚自习的时候到"
+        },
+        {
+          "column": 4,
+          "content": "周日晚自习请假比较松"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 61
+      },
+      "title": "一个年级几个班啊",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "你们这届8个"
+        },
+        {
+          "column": 3,
+          "content": "一个班五十人，新高一应该八个班"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 62
+      },
+      "title": "晚自习下课后几点熄灯啊",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "22:45"
+        },
+        {
+          "column": 3,
+          "content": "高三应该是23:00"
+        },
+        {
+          "column": 4,
+          "content": "22：45打熄灯铃"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 63
+      },
+      "title": "我们学校有le和gay吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "那可太有了"
+        },
+        {
+          "column": 3,
+          "content": "？这是啥问题，会有的"
+        },
+        {
+          "column": 4,
+          "content": "个人喜好吧，普遍来讲会有的。"
+        },
+        {
+          "column": 5,
+          "content": "多"
+        },
+        {
+          "column": 6,
+          "content": "不少其实"
+        },
+        {
+          "column": 7,
+          "content": "挺多"
+        },
+        {
+          "column": 8,
+          "content": "万一没有呢"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 64
+      },
+      "title": "晚上食堂开吗",
+      "categorySlug": "canteen-card",
+      "answers": [
+        {
+          "column": 2,
+          "content": "开开了有宵夜吃"
+        },
+        {
+          "column": 3,
+          "content": "开"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 65
+      },
+      "title": "宿舍有要求熄灯手机吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "会让你熄灯的啊但女生那边管的不太严啦，可以用小台灯"
+        },
+        {
+          "column": 3,
+          "content": "可以用小台灯，但别太亮"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 66
+      },
+      "title": "学姐学长，你们怎么那么有爱？",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "因为我们是热心肠哈哈哈哈哈"
+        },
+        {
+          "column": 3,
+          "content": "学弟学妹都比较可爱哈哈哈"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 67
+      },
+      "title": "宿舍的床是多大的（尺寸大概是多少）床垫硬吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "比较软"
+        },
+        {
+          "column": 3,
+          "content": "床垫你也可以自己带一个，我个人觉得原本的那个有一点点硬"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 68
+      },
+      "title": "如果刚开始很难适应高中生活怎么调理呀",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "不要给自己太大压力，走一步看一步，相信来得及就行"
+        },
+        {
+          "column": 3,
+          "content": "不要给自己太大压力，考得差也无所谓，慢慢来，一切都来得及"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 69
+      },
+      "title": "你们填东西的时候空几行吧 尽量别把别人的东西给覆盖掉了",
+      "categorySlug": "other",
+      "answers": []
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 70
+      },
+      "title": "晚上几点熄灯",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "十点四十五"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 71
+      },
+      "title": "我可以找人替我吃饭吗？打8折՞˶•⩊•˶՞ಣ",
+      "categorySlug": "canteen-card",
+      "answers": [
+        {
+          "column": 2,
+          "content": "毕业生也可以替吃饭吗"
+        },
+        {
+          "column": 3,
+          "content": "什么叫替吃饭！还有这等好事"
+        },
+        {
+          "column": 4,
+          "content": "包可以的呀，还有这种好事"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 72
+      },
+      "title": "长久减肥户，初中有人替吃，怕高中没有给我吃美了",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "爽吃"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 73
+      },
+      "title": "需要抢饭吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "要"
+        },
+        {
+          "column": 3,
+          "content": "ohno不要啊，高一二三下课时间一样的吗"
+        },
+        {
+          "column": 4,
+          "content": "要"
+        },
+        {
+          "column": 5,
+          "content": "智谷是要的 智慧城只有第1届可能不用（？"
+        },
+        {
+          "column": 6,
+          "content": "老校区必须要"
+        },
+        {
+          "column": 7,
+          "content": "每天都抢"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 74
+      },
+      "title": "有没有人一起踢球",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "不少"
+        },
+        {
+          "column": 3,
+          "content": "下午操场蛮多的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 75
+      },
+      "title": "我们学校帅哥多不多",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "少"
+        },
+        {
+          "column": 3,
+          "content": "不多吧"
+        },
+        {
+          "column": 4,
+          "content": "会多的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 76
+      },
+      "title": "美女多不多",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有的"
+        },
+        {
+          "column": 3,
+          "content": "挺多的"
+        },
+        {
+          "column": 4,
+          "content": "多"
+        },
+        {
+          "column": 5,
+          "content": "会多的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 77
+      },
+      "title": "有没有处对象的啊",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "很多"
+        },
+        {
+          "column": 3,
+          "content": "会有的"
+        },
+        {
+          "column": 4,
+          "content": "你真的相信这样d出来的爱情吗"
+        },
+        {
+          "column": 5,
+          "content": "帅不处"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 78
+      },
+      "title": "学校发的平板是干什么的",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "发电子资料、课堂同屏、布置作业、交作业等等的功能"
+        },
+        {
+          "column": 3,
+          "content": "学习用的，但是有应用可以往里面导小说，这个看自己自觉吧"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 80
+      },
+      "title": "我需要一个饭堂必吃榜！括号不能吃辣",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "酱骨架好吃，但是有点小贵"
+        },
+        {
+          "column": 3,
+          "content": "top1土豆片"
+        },
+        {
+          "column": 4,
+          "content": "茶树菇炒牛肉"
+        },
+        {
+          "column": 5,
+          "content": "那个辣辣的薯条"
+        },
+        {
+          "column": 6,
+          "content": "必须酸菜大肠真的夯"
+        },
+        {
+          "column": 7,
+          "content": "那个好几个砂锅的窗口别去omg太辣了"
+        },
+        {
+          "column": 8,
+          "content": "酸菜鱼好吃😋辣味可忽略"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 81
+      },
+      "title": "清湾有人搞乐队吗？",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有的"
+        },
+        {
+          "column": 3,
+          "content": "有"
+        },
+        {
+          "column": 4,
+          "content": "acg乐队有的招募贝斯，鼓手"
+        },
+        {
+          "column": 5,
+          "content": "看群消息，请加主唱高二五班杨萱怡"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 82
+      },
+      "title": "宿舍的床是自带床垫的吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 3,
+          "content": "是，建议自己买个软垫"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 83
+      },
+      "title": "有约会的好地方吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "水木艺术中心"
+        },
+        {
+          "column": 3,
+          "content": "水木艺术中心"
+        },
+        {
+          "column": 4,
+          "content": "饭堂门口小路"
+        },
+        {
+          "column": 5,
+          "content": "我告诉你几个容易被发现的地方：蘑菇房拐角 水木琴房 马约翰。我在这些地方撞到好多小情侣"
+        },
+        {
+          "column": 6,
+          "content": "水木楼梯间"
+        },
+        {
+          "column": 7,
+          "content": "图书馆"
+        },
+        {
+          "column": 8,
+          "content": "篮球场"
+        },
+        {
+          "column": 9,
+          "content": "厕所"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 84
+      },
+      "title": "宿舍被子要自己带吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "要买学校的统一被子"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 85
+      },
+      "title": "学校的平板可以用来听网课吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "可以的，但只能听平板上自带的"
+        },
+        {
+          "column": 3,
+          "content": "但是那个网课有点垃圾"
+        },
+        {
+          "column": 6,
+          "content": "让你的老师给你导一点网课"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 86
+      },
+      "title": "谈恋爱的人多吗？",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "爬楼"
+        },
+        {
+          "column": 3,
+          "content": "见83"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 87
+      },
+      "title": "真没帅哥我能不能申请退学",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "挺多的吧"
+        },
+        {
+          "column": 3,
+          "content": "比较少貌似"
+        },
+        {
+          "column": 4,
+          "content": "预期别给太大。"
+        },
+        {
+          "column": 5,
+          "content": "三班有个薄肌貌似不错😍"
+        },
+        {
+          "column": 6,
+          "content": "校群群主挺帅的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 88
+      },
+      "title": "军训会随机抽人进行才艺表演吗😱",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "不会吧我记得"
+        },
+        {
+          "column": 3,
+          "content": "上去做俯卧撑就行了"
+        },
+        {
+          "column": 4,
+          "content": "会有显眼包上去的。"
+        },
+        {
+          "column": 5,
+          "content": "正常会有嘉豪"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 89
+      },
+      "title": "上面这个我也想知道",
+      "categorySlug": "other",
+      "answers": []
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 90
+      },
+      "title": "可以带实体小说吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "可以，偷偷的别被发现，别太猖狂就好"
+        },
+        {
+          "column": 3,
+          "content": "🉑"
+        },
+        {
+          "column": 4,
+          "content": "别上课看通宵看就行"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 91
+      },
+      "title": "求学校wifi密码",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "zhktzhkt（这个是教室的）"
+        },
+        {
+          "column": 3,
+          "content": "qhfz那个有密码也不够，还得有账号，教师里WiFi密码会写在那个主机上"
+        },
+        {
+          "column": 4,
+          "content": "课室zhktzhkt和iFlytek1234"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 92
+      },
+      "title": "军训几天啊，大概啥时候",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "七天"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 93
+      },
+      "title": "晚自习要考试吗",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "看学校安排，但是有这个先例"
+        },
+        {
+          "column": 3,
+          "content": "基本没有。"
+        },
+        {
+          "column": 4,
+          "content": "有很少"
+        },
+        {
+          "column": 5,
+          "content": "以前高二的时候周日晚修有 后面被ban了（毕业生）"
+        },
+        {
+          "column": 6,
+          "content": "没有"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 94
+      },
+      "title": "晨跑要跑多少啊累不累",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "初中才要晨跑，高中平常不用，军训看教官心情"
+        },
+        {
+          "column": 3,
+          "content": "高中没有"
+        },
+        {
+          "column": 4,
+          "content": "高中没有"
+        },
+        {
+          "column": 5,
+          "content": "军训有，平时没有"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 96
+      },
+      "title": "宿舍床帘有链接吗 要透气不透光的",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "自己挑喜欢的就好了其实大差不差，我在PDD买的20到30的样子"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 97
+      },
+      "title": "宿舍的床会不会很挤",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 3,
+          "content": "不会"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 98
+      },
+      "title": "可以带那种偏大一点的玩偶放在床上吗？宿管阿姨是不是也不管",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "可以的，放里面一点别被看到"
+        },
+        {
+          "column": 3,
+          "content": "可以给我玩"
+        },
+        {
+          "column": 4,
+          "content": "宿管好像不管吧，我之前怕被发现塞到被子里宿管查寝帮我掏出来放好了"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 99
+      },
+      "title": "学长学姐你们好好宣传是不是有业绩^⎚‸⎚^",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "并没有哈哈哈哈"
+        },
+        {
+          "column": 3,
+          "content": "用爱发电"
+        },
+        {
+          "column": 4,
+          "content": "很遗憾，并没有"
+        },
+        {
+          "column": 5,
+          "content": "你明年就知道了"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 100
+      },
+      "title": "我们学校有异校恋 另一半来班上找他/她的吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "这种事情不被允许吧。"
+        },
+        {
+          "column": 3,
+          "content": "咋可能有"
+        },
+        {
+          "column": 4,
+          "content": "不会的。"
+        },
+        {
+          "column": 5,
+          "content": "不刷脸不让进"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 101
+      },
+      "title": "军训大概是几号",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "看具体情况吧，上次是8月16到8月23"
+        },
+        {
+          "column": 3,
+          "content": "八月中旬"
+        },
+        {
+          "column": 4,
+          "content": "一般情况会在暑假倒数第二周让你军训，然后再让你回家放一周再开学"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 102
+      },
+      "title": "军训被晒成黑炭会不会被狠狠嘲笑(*꒦ິ⌓꒦ີ)",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "这个学长学姐扣分(⋟﹏⋞)"
+        },
+        {
+          "column": 4,
+          "content": "一般在阴凉的地方"
+        },
+        {
+          "column": 5,
+          "content": "没太阳就行了（上次就下了5天雨）"
+        },
+        {
+          "column": 6,
+          "content": "不会晒太狠的"
+        },
+        {
+          "column": 7,
+          "content": "我晒伤了，不要小看阴天"
+        },
+        {
+          "column": 8,
+          "content": "无论阴天还是晴天还是多云，都要涂防晒"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 103
+      },
+      "title": "早餐有甜玉米吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "哪种？有玉米但是是普通的，挺好吃的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 104
+      },
+      "title": "这条没人说吗",
+      "categorySlug": "other",
+      "answers": []
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 105
+      },
+      "title": "到时候宿舍的床位是不是先到先得",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "不是 安排好的"
+        },
+        {
+          "column": 3,
+          "content": "正常来说是按班分到一起的，如果想换宿舍的话要走流程，要级长吴志通和班主任签字，蛮麻烦的"
+        },
+        {
+          "column": 4,
+          "content": "想换要和宿管说（也可以直接问对应的舍友）"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 106
+      },
+      "title": "军训训练是在架空层还是在操场",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "下雨在架空层"
+        },
+        {
+          "column": 3,
+          "content": "看下不下雨吧"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 107
+      },
+      "title": "舟p多吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "舟不知道，洲挺多的"
+        },
+        {
+          "column": 3,
+          "content": "伸出蟑螂触须……"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 108
+      },
+      "title": "填东西的时候空几行哈，别把别人的东西覆盖了",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "好"
+        },
+        {
+          "column": 3,
+          "content": "了解"
+        },
+        {
+          "column": 4,
+          "content": "如果前面有空行没填的话，可以插空哈"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 109
+      },
+      "title": "问问大型活动的频率",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "下半学期多"
+        },
+        {
+          "column": 3,
+          "content": "学生节期间基本上每个月一两次"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 110
+      },
+      "title": "所以要跑1200吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "没有这个先例，但也不排除体育组突发恶疾的可能性（同意回答三的那位朋友。"
+        },
+        {
+          "column": 3,
+          "content": "不用的"
+        },
+        {
+          "column": 4,
+          "content": "防住李金平"
+        },
+        {
+          "column": 5,
+          "content": "还要防住田径课上的bw大人"
+        },
+        {
+          "column": 25,
+          "content": "找不到我"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 111
+      },
+      "title": "为什么我填的答案会随机消失",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "腾讯的大手"
+        },
+        {
+          "column": 3,
+          "content": "被别人盖掉了"
+        },
+        {
+          "column": 4,
+          "content": "资本运作"
+        },
+        {
+          "column": 5,
+          "content": "被做局了"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 112
+      },
+      "title": "帅哥少美女多的话我会不会变成la",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "绝对会但主要靠自己"
+        },
+        {
+          "column": 3,
+          "content": "？"
+        },
+        {
+          "column": 4,
+          "content": "？"
+        },
+        {
+          "column": 5,
+          "content": "666"
+        },
+        {
+          "column": 6,
+          "content": "会"
+        },
+        {
+          "column": 7,
+          "content": "有一些炫压抑成分在清湾里的"
+        },
+        {
+          "column": 8,
+          "content": "经典xyy"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 113
+      },
+      "title": "学校饭好吃吗？",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "菜品自选"
+        },
+        {
+          "column": 3,
+          "content": "不难吃"
+        },
+        {
+          "column": 4,
+          "content": "能吃"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 114
+      },
+      "title": "雨天有人cos嘉豪吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "笑死我了，这什么鬼"
+        },
+        {
+          "column": 3,
+          "content": "有的，兄弟有的。"
+        },
+        {
+          "column": 4,
+          "content": "有过"
+        },
+        {
+          "column": 5,
+          "content": "现在已是绝版人物"
+        },
+        {
+          "column": 6,
+          "content": "教学楼二楼平台你懂的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 115
+      },
+      "title": "学校饮水机干净吗",
+      "categorySlug": "facilities",
+      "answers": [
+        {
+          "column": 2,
+          "content": "喝起来有点怪怪的"
+        },
+        {
+          "column": 3,
+          "content": "之前有人做过实验，不会不干净（虽然喝起来怪会有一点"
+        },
+        {
+          "column": 4,
+          "content": "还行"
+        },
+        {
+          "column": 5,
+          "content": "小心饮水机温度，有些没烧开的也能出水，我们教学楼六楼上次就放了2天生水"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 116
+      },
+      "title": "有表白墙吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "已经没了喵"
+        },
+        {
+          "column": 3,
+          "content": "远古时期有过"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 117
+      },
+      "title": "有没有烤p。",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "少见，但会存在。"
+        },
+        {
+          "column": 3,
+          "content": "会有的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 118
+      },
+      "title": "有没有什么广为流传的瓜",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "回校后再问吧，这个还是口口相传好"
+        },
+        {
+          "column": 3,
+          "content": "此事不宜外传"
+        },
+        {
+          "column": 4,
+          "content": "广为流传的瓜一般线下说"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 119
+      },
+      "title": "周一升旗要穿礼服吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "大部分时间不用"
+        },
+        {
+          "column": 3,
+          "content": "夏天可能要，冬天不用"
+        },
+        {
+          "column": 4,
+          "content": "有时候要有时候不要，看通知"
+        },
+        {
+          "column": 5,
+          "content": "以前要过"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 120
+      },
+      "title": "新生开学要不要自我介绍啊",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "班级都要的吧，主要看班主任怎么组织"
+        },
+        {
+          "column": 3,
+          "content": "大多都是自愿原则"
+        },
+        {
+          "column": 4,
+          "content": "看班主任"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 121
+      },
+      "title": "tx文档有bug吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "啥bug"
+        },
+        {
+          "column": 3,
+          "content": "可能有"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 122
+      },
+      "title": "门口刷脸有识别错过吗 比如说刷成另外一个人",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "校门口的比较少，但我班门口的刷错过"
+        },
+        {
+          "column": 3,
+          "content": "宿舍的也刷错过"
+        },
+        {
+          "column": 4,
+          "content": "刷错的话撩一下头发"
+        },
+        {
+          "column": 5,
+          "content": "其实更应该担心扫不出来。"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 123
+      },
+      "title": "有烹饪课吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "目前无"
+        },
+        {
+          "column": 3,
+          "content": "没有的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 124
+      },
+      "title": "早餐的种类多吗？",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "正常量吧我觉得如果你给食堂提建议很多时候还是会采纳"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 125
+      },
+      "title": "宿舍有配洗衣机吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有洗衣房（免费）"
+        },
+        {
+          "column": 3,
+          "content": "一期是集中的，二期每个宿舍都有"
+        },
+        {
+          "column": 4,
+          "content": "有"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 126
+      },
+      "title": "羽毛球场平时对外开放吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "开，要抢"
+        },
+        {
+          "column": 3,
+          "content": "只有四个场"
+        },
+        {
+          "column": 4,
+          "content": "注意抢场地的时候别错过班里发吃的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 127
+      },
+      "title": "后天注册报到要不要卸美甲",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "不用吧，开学再卸"
+        },
+        {
+          "column": 3,
+          "content": "不用"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 128
+      },
+      "title": "选修课还有陶艺课吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "🈚，你可以自己开"
+        },
+        {
+          "column": 4,
+          "content": "不知道这学期开不开，我们学校有烧的窑"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 129
+      },
+      "title": "有没有什么坐牢，费力，收益低的课程推荐",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "chy的讲座"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 130
+      },
+      "title": "有学霸美女学姐吗",
+      "categorySlug": "study-experience",
+      "answers": [
+        {
+          "column": 2,
+          "content": "找群主（b s"
+        },
+        {
+          "column": 3,
+          "content": "神了"
+        },
+        {
+          "column": 4,
+          "content": "重点是学霸还是美女"
+        },
+        {
+          "column": 5,
+          "content": "群主不是学霸美女学姐"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 131
+      },
+      "title": "教学楼的厕所是否整洁干净",
+      "categorySlug": "facilities",
+      "answers": [
+        {
+          "column": 2,
+          "content": "还不错，毕竟是高年级，至少比低年级好一点"
+        },
+        {
+          "column": 3,
+          "content": "有的时候有点味大"
+        },
+        {
+          "column": 4,
+          "content": "是"
+        },
+        {
+          "column": 5,
+          "content": "有常驻班级的楼层是干净的，没有的话就有可能不会时时清理"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 132
+      },
+      "title": "群里大部分是哪个校区的",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "一期吧"
+        },
+        {
+          "column": 3,
+          "content": "i'm一期"
+        },
+        {
+          "column": 4,
+          "content": "啊这有二期的吗"
+        },
+        {
+          "column": 5,
+          "content": "二期不是刚招吗？"
+        },
+        {
+          "column": 6,
+          "content": "一期在此"
+        },
+        {
+          "column": 7,
+          "content": "二期还没有学长学姐。"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 133
+      },
+      "title": "厕所是蹲的还是坐的",
+      "categorySlug": "facilities",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有蹲有坐"
+        },
+        {
+          "column": 3,
+          "content": "都有"
+        },
+        {
+          "column": 4,
+          "content": "教学区都是坐的，但是不知道下学期改不改"
+        },
+        {
+          "column": 5,
+          "content": "教学楼有蹲有坐，艺术楼全坐"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 134
+      },
+      "title": "选修课和体育课都是线上抢吗",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "是的，但选修课后面会变成培优补差，就变成老师选你了（"
+        },
+        {
+          "column": 3,
+          "content": "周日下午两点（不同周）"
+        },
+        {
+          "column": 4,
+          "content": "钉钉系统线上老师会发"
+        },
+        {
+          "column": 5,
+          "content": "我都忘了选修课这回事了"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 135
+      },
+      "title": "宿舍和食堂 教学楼离的远不远 要走多久",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "不远 走五分钟左右"
+        },
+        {
+          "column": 3,
+          "content": "五分钟"
+        },
+        {
+          "column": 4,
+          "content": "不远"
+        },
+        {
+          "column": 5,
+          "content": "新校区好像蛮远的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 136
+      },
+      "title": "占领无人区",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "抢夺无人区"
+        },
+        {
+          "column": 3,
+          "content": "现在有人了"
+        },
+        {
+          "column": 4,
+          "content": "你再看看你后面呢"
+        },
+        {
+          "column": 5,
+          "content": "你也看看你后面呢"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 137
+      },
+      "title": "有没有什么吃手法，要操作，尽显努力与汗水的课程推荐",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "田径课"
+        },
+        {
+          "column": 3,
+          "content": "边老师的田径课"
+        },
+        {
+          "column": 4,
+          "content": "还真是!强力推荐口牙！"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 138
+      },
+      "title": "校长大人有外号喵",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "你可以自己起喵"
+        },
+        {
+          "column": 3,
+          "content": "老毕登！（骗你的其实不是这个）"
+        },
+        {
+          "column": 4,
+          "content": "怎么没有，咱李金平校长不就有吗…"
+        },
+        {
+          "column": 5,
+          "content": "还没"
+        },
+        {
+          "column": 6,
+          "content": "毕竟是新学校，校长还没有做出什么惊天动地的蠢事（还没有到能起外号的地步"
+        },
+        {
+          "column": 7,
+          "content": "程校出镜率低无外号"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 139
+      },
+      "title": "hyw",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "wyw"
+        },
+        {
+          "column": 3,
+          "content": "？"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 140
+      },
+      "title": "考试会公布排名吗",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "会"
+        },
+        {
+          "column": 3,
+          "content": "会，平板公布"
+        },
+        {
+          "column": 4,
+          "content": "看老师，我们都是发你自己的成绩条，或者发成绩表对应排名，搞掉名字"
+        },
+        {
+          "column": 5,
+          "content": "只能看自己的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 141
+      },
+      "title": "体育老师上体育课温柔吗",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "射击的老师挺温柔的，咱边老师就…"
+        },
+        {
+          "column": 3,
+          "content": "看项目"
+        },
+        {
+          "column": 4,
+          "content": "田径老师最温柔🥹"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 142
+      },
+      "title": "厕所有人刻字吗",
+      "categorySlug": "facilities",
+      "answers": [
+        {
+          "column": 2,
+          "content": "部分"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 143
+      },
+      "title": "有没有那种人人尊敬的老师",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "陈传飞"
+        },
+        {
+          "column": 3,
+          "content": "必须提名我们侯"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 144
+      },
+      "title": "单人单桌吗还是有同桌",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "你想不要同桌的话，可以跟老师说"
+        },
+        {
+          "column": 3,
+          "content": "有同桌，有个别老师会安排单桌"
+        },
+        {
+          "column": 4,
+          "content": "看老师吧"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 145
+      },
+      "title": "军训的时候就可以加床帘了吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "应该是的"
+        },
+        {
+          "column": 3,
+          "content": "教官不怎么去宿舍"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 146
+      },
+      "title": "书桌有没有刻字的那些",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "你可以看到我贴的卖掉了贴纸"
+        },
+        {
+          "column": 3,
+          "content": "有的有"
+        },
+        {
+          "column": 4,
+          "content": "看上一个人的素质"
+        },
+        {
+          "column": 5,
+          "content": "少部分"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 147
+      },
+      "title": "重名的怎么办",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 3,
+          "content": "目前没见过，难道你见过？"
+        },
+        {
+          "column": 4,
+          "content": "回前一格，见到了，同一级，同一校区"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 148
+      },
+      "title": "学长学姐我爱你们💕",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "❤️"
+        },
+        {
+          "column": 3,
+          "content": "😔"
+        },
+        {
+          "column": 4,
+          "content": "学弟学妹们幸福就好了口牙！"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 149
+      },
+      "title": "学校有没有小卖部啊",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有"
+        },
+        {
+          "column": 3,
+          "content": "只卖健康饮料而且限购"
+        },
+        {
+          "column": 4,
+          "content": "有，不卖零食"
+        },
+        {
+          "column": 5,
+          "content": "小卖部很扫码"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 150
+      },
+      "title": "小卖部有卖什么只是生活用品吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 3,
+          "content": "有部分生活用品，但不卖牙膏（有牙刷和牙杯）"
+        },
+        {
+          "column": 4,
+          "content": "其实曾经有卖过 现在没有了牙膏"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 151
+      },
+      "title": "学校今年的高考成绩怎么样",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "还可以，网上可以找到"
+        },
+        {
+          "column": 3,
+          "content": "我是高考生我觉得还不错"
+        },
+        {
+          "column": 4,
+          "content": "我去是珍贵的高考生！"
+        },
+        {
+          "column": 5,
+          "content": "我去是珍贵的高考生！"
+        },
+        {
+          "column": 6,
+          "content": "我是27年高考生的我觉得不错！怎么被吞了！"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 152
+      },
+      "title": "宿舍空调温度怎么样 不能自己带被子枕头吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "不适可以带遥控器调（单次献祭2分）"
+        },
+        {
+          "column": 3,
+          "content": "空调不适可以找宿管或者自己带万能遥控"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 153
+      },
+      "title": "有没有🔥p",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有❤️‍🔥"
+        },
+        {
+          "column": 3,
+          "content": "有没有臀萌"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 154
+      },
+      "title": "有没有喜欢骑行的朋友",
+      "categorySlug": "other",
+      "answers": []
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 155
+      },
+      "title": "游泳选修课怎么样",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "冬天会有点冷，虽然是恒温游泳池，但还是需要适应一下。还要做好因为换衣服吃饭有点晚的准备"
+        },
+        {
+          "column": 3,
+          "content": "有点阴湿发臭"
+        },
+        {
+          "column": 4,
+          "content": "夏天游泳选修课还可以的讲真"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 156
+      },
+      "title": "大课间要干什么？体育选课有羽毛球吗",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "现在课间操＋跑操（以前足球跳绳跑操轮着来）"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 157
+      },
+      "title": "射击用的是什么弹药",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "激光设备，没有子弹，学校很危险不允许，用的是速得尔的激光设备"
+        },
+        {
+          "column": 3,
+          "content": "没有弹药，是激光"
+        },
+        {
+          "column": 4,
+          "content": "祖国人同款"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 158
+      },
+      "title": "大课间跑多少？快吗远吗？",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "1.5圈"
+        },
+        {
+          "column": 3,
+          "content": "速度看自班体委，太慢容易被压力"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 159
+      },
+      "title": "可以点外卖吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "理论不行实际有操作空间"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 160
+      },
+      "title": "下午和晚修之间的时间玩手机会被抓包吗",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有可能，在宿舍好藏一点，在教室就得小心有没有老师经过了"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 161
+      },
+      "title": "宿管查房是怎么查的，在门口看看还是进来",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "其实很少查房，会提醒关灯，因为进宿舍要刷脸，所以不需要宿管进宿舍点名"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 162
+      },
+      "title": "学校会经常分班洗牌吗",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "每个学期一次吧应该是"
+        },
+        {
+          "column": 3,
+          "content": "第一个学期结束会结合选科大分班，后面基本微调吧学期结束的时候"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 163
+      },
+      "title": "大课间不去会被点名吗，躲班上怎样",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "可以去马约翰和水木躲"
+        },
+        {
+          "column": 3,
+          "content": "老师会去班上清场，要点人"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 164
+      },
+      "title": "学校今年上985的人多吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "网上可以查到今年的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 165
+      },
+      "title": "体育课选课有羽毛球吗！！！😭😭😭",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "暂时没有…"
+        },
+        {
+          "column": 3,
+          "content": "有诶"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 166
+      },
+      "title": "那有啥呀",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "爬楼"
+        },
+        {
+          "column": 3,
+          "content": "田径篮球足球射击击剑游泳"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 167
+      },
+      "title": "宿舍床上用品都可以自带吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "建议跟随学校统一的床褥"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 168
+      },
+      "title": "下学期高二高三要搬到二期吗还是",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "没有的事"
+        },
+        {
+          "column": 3,
+          "content": "还是在一期"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 170
+      },
+      "title": "体育选课男女会失衡么？什么女生多？",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "应该会有"
+        },
+        {
+          "column": 3,
+          "content": "射击的女生会相对多一点点"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 172
+      },
+      "title": "能不能偷渡手机在宿舍玩",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "可以哦"
+        },
+        {
+          "column": 3,
+          "content": "🉑"
+        },
+        {
+          "column": 4,
+          "content": "要有手法"
+        },
+        {
+          "column": 5,
+          "content": "吃操作"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 174
+      },
+      "title": "能不能玩班上的一体机",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "豪住"
+        },
+        {
+          "column": 3,
+          "content": "不被抓就行"
+        },
+        {
+          "column": 4,
+          "content": "看实力"
+        },
+        {
+          "column": 5,
+          "content": "隔壁班放学大大方方刷视频"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 176
+      },
+      "title": "校服会不会特别显黑😭",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "不会"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 178
+      },
+      "title": "宿舍大会多久开一次，线上还是要去马约翰",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "期末开，去马约翰"
+        },
+        {
+          "column": 3,
+          "content": "随机"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 180
+      },
+      "title": "校运会强制报名吗",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "报不满有可能"
+        },
+        {
+          "column": 3,
+          "content": "有可能，报不满会抽签"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 182
+      },
+      "title": "咱们校服是不是广州最好看的！",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "看喜好"
+        },
+        {
+          "column": 3,
+          "content": "最好看不敢说，但我觉得算好看的了"
+        },
+        {
+          "column": 4,
+          "content": "比广中好看（"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 183
+      },
+      "title": "要入学考试吗",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "算是有吧但是像随堂测一样而且影响不大"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 185
+      },
+      "title": "宿舍有充电插口吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有的不过有些会挡住，随机的"
+        },
+        {
+          "column": 3,
+          "content": "至少一个"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 186
+      },
+      "title": "还有人吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "在呢"
+        },
+        {
+          "column": 3,
+          "content": "晚安😴"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 187
+      },
+      "title": "好晚了",
+      "categorySlug": "other",
+      "answers": []
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 188
+      },
+      "title": "分文理后会走班上课吗",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 3,
+          "content": "混班是会的！"
+        },
+        {
+          "column": 4,
+          "content": "有物化生物化地混班"
+        },
+        {
+          "column": 5,
+          "content": "有文理混班"
+        },
+        {
+          "column": 6,
+          "content": "混班会"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 189
+      },
+      "title": "有必要自己买蚊帐吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "没多少蚊子"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 191
+      },
+      "title": "住宿能用遮光的蚊帐吗？？遮住就看不到的那种",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "可以"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 193
+      },
+      "title": "高一运动会1000米校记录多少",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "貌似没有这个项目"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 194
+      },
+      "title": "智慧城校区交通方便吗？好停车吗？",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "交通不至于很不方便，但公共交通有点少，也不太好停车"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 195
+      },
+      "title": "老师年纪便年轻还是偏大 教的怎么样🌝",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "这个都有吧，年轻老师比较多"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 197
+      },
+      "title": "运动会有摄影组吗",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "有的，清湾融媒体中心"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 200
+      },
+      "title": "开到了200行，这下总没有人了吧",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "你再看看你后面呢"
+        },
+        {
+          "column": 3,
+          "content": "hi"
+        },
+        {
+          "column": 4,
+          "content": "改变命运的忍术，这就是伊邪那美"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 201
+      },
+      "title": "来估计一下新生能问到第几行",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "我猜300——神秘人"
+        },
+        {
+          "column": 3,
+          "content": "我觉得没有那么多，225就够了"
+        },
+        {
+          "column": 4,
+          "content": "325799"
+        },
+        {
+          "column": 5,
+          "content": "现在没人了吗"
+        },
+        {
+          "column": 6,
+          "content": "呼呼呼哐哐哐"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 202
+      },
+      "title": "井include<iosteam> use namespace std int mian cout>>\"Hello Wrold!\" retrun 0; }",
+      "categorySlug": "other",
+      "answers": []
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 203
+      },
+      "title": "扣多少分会停宿啊",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "15分，10分会被警告"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 205
+      },
+      "title": "哪边是好的",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "我是"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 206
+      },
+      "title": "能不能偷偷把校外人员带进来",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "要刷脸，可能性几乎为0"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 207
+      },
+      "title": "哪些科目要带笔记本 草稿本要自带吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "化学生物英语语文（历政地不清楚）"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 208
+      },
+      "title": "他们为什么打架",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 3,
+          "content": "因为我太帅了"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 209
+      },
+      "title": "注册当天考什么",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "这个不清楚，我们那届没这活动"
+        },
+        {
+          "column": 3,
+          "content": "数理化"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 210
+      },
+      "title": "还有人没睡觉吗",
+      "categorySlug": "other",
+      "answers": []
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 211
+      },
+      "title": "有没有二次元（最好是女生）求二期的",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "挺多的其实，可以慢慢发掘"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表1",
+        "row": 212
+      },
+      "title": "可以带mp3吗有点睡眠障碍，要听音频",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "可以偷偷的，不张扬没什么问题"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 1
+      },
+      "title": "老师是广州的还是其他地方派来的啊",
+      "categorySlug": "courses",
+      "answers": [
+        {
+          "column": 2,
+          "content": "都有，但是广州的应该会多一些"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 3
+      },
+      "title": "上厕所环境舒适吗",
+      "categorySlug": "facilities",
+      "answers": [
+        {
+          "column": 2,
+          "content": "高年级厕所还算干净，低年级比较难说"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 4
+      },
+      "title": "一餐吃多少可以吃爽",
+      "categorySlug": "canteen-card",
+      "answers": [
+        {
+          "column": 2,
+          "content": "看个人吧，自己选菜阿姨给你打然后结账，菜品挺多的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 5
+      },
+      "title": "吃饭用饭卡付钱吗",
+      "categorySlug": "canteen-card",
+      "answers": [
+        {
+          "column": 2,
+          "content": "对的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 6
+      },
+      "title": "清湾压力大不大",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "前面有，可以去看一下"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 7
+      },
+      "title": "洗澡会不会要排很久队啊",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "应该还好，热水24h不断的，你可以晚上熄灯洗，自己带个小灯什么的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 8
+      },
+      "title": "吹头发是在宿舍还是有专门的地方",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "智谷是洗衣房里有很多风筒的，可以在那里吹头发，其实自带风筒是违禁物品，不太建议"
+        },
+        {
+          "column": 3,
+          "content": "本人是自带风筒的，看宿管严格程度，我们那里的宿管不咋管，我必须要吐槽一下，一期的风筒没有滤网，风速会越转越慢"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 9
+      },
+      "title": "校服都放在一起洗咋知道哪个是自己的",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "洗衣袋，而且洗衣机很多，可以自己开一机，但是因为公用所以记得及时收衣服呀"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 10
+      },
+      "title": "宿舍有地方可以给手机充电吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "应该是有插座的，可以找一下"
+        },
+        {
+          "column": 3,
+          "content": "插座原则上不能用，小心一点"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 11
+      },
+      "title": "宿舍哪里适合藏手机",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "建议找件外套或者裤子，揣兜里然后晾在阳台外面，或者拿个洗衣袋往里面放点衣服，手机塞进去，丢去洗衣房的洗衣机里"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 12
+      },
+      "title": "接9，那我是要在那里等衣服洗完拿走吗",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "不用的，一般有洗衣袋人多的时候会把你的东西拿出来放到旁边，自己去认领就好了"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 13
+      },
+      "title": "对不起学长学姐们我没住过宿",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "总会有第一次的宝贝，没关系的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 14
+      },
+      "title": "接7，熄灯洗澡会不会被罚",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "在阳台，不会被发现吧，反正我没被抓到过"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 16
+      },
+      "title": "会用探测仪扫描手机吗",
+      "categorySlug": "rules",
+      "answers": [
+        {
+          "column": 2,
+          "content": "偶尔，很少这么严，三年只见过一次好像"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 17
+      },
+      "title": "篮球队足球队还有班赛什么的有不",
+      "categorySlug": "clubs",
+      "answers": [
+        {
+          "column": 2,
+          "content": "我看好像是有的，但是基本上学生自己组织，可以去问问那种相关同学"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 18
+      },
+      "title": "男生宿舍有吹风机不",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 2,
+          "content": "都一样的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 19
+      },
+      "title": "咱学长学姐不睡了呀，都当客服了",
+      "categorySlug": "other",
+      "answers": [
+        {
+          "column": 2,
+          "content": "我的夜生活很丰富，喝了奶茶不是很困呃呃对的"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 20
+      },
+      "title": "走读的话午休也是在宿舍吗",
+      "categorySlug": "dormitory",
+      "answers": [
+        {
+          "column": 3,
+          "content": "在教室"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 21
+      },
+      "title": "军训是啥时候这对我很重要",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "表一有，可以自己去看看"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 22
+      },
+      "title": "报道了会发作业吗😱",
+      "categorySlug": "enrollment",
+      "answers": [
+        {
+          "column": 2,
+          "content": "会"
+        }
+      ]
+    },
+    {
+      "source": {
+        "sheet": "工作表2",
+        "row": 23
+      },
+      "title": "有多少人玩第五人格啊。现急需一个人陪我打第五人格。",
+      "categorySlug": "other",
+      "answers": []
+    }
+  ]
+}

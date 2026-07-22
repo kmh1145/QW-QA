@@ -15,7 +15,8 @@
     "db:migrate": "prisma migrate deploy",
     "db:dev": "prisma migrate dev",
     "db:seed": "tsx prisma/seed.ts",
-    "admin:init": "tsx scripts/init-admin.ts"
+    "admin:init": "tsx scripts/init-admin.ts",
+    "data:import-xlsx": "tsx scripts/import-qa-xlsx.ts"
   },
   "dependencies": {
     "@node-rs/argon2": "2.0.2",
