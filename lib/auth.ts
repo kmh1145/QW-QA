@@ -30,6 +30,10 @@ export async function getCurrentUser() {
   if (!session || session.expiresAt < new Date() || session.sessionVersion !== session.user.sessionVersion || session.user.deletedAt) return null;
   return session.user;
 }
+export async function getCurrentSessionTokenHash() {
+  const raw = (await cookies()).get(COOKIE)?.value;
+  return raw ? hashToken(raw) : null;
+}
 export async function requireUser(options: { verified?: boolean } = {}) {
   const user = await getCurrentUser();
   if (!user) redirect("/login");

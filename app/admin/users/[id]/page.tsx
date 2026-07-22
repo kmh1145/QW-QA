@@ -32,6 +32,11 @@ export default async function UserAdminDetailPage({ params }: { params: Promise<
         },
         orderBy: { createdAt: "desc" },
         take: 50
+      },
+      warningsReceived: {
+        include: { issuedBy: { select: { username: true } } },
+        orderBy: { createdAt: "desc" },
+        take: 20
       }
     }
   });
@@ -53,6 +58,11 @@ export default async function UserAdminDetailPage({ params }: { params: Promise<
         <div><dt className="text-slate-500">有效 Session</dt><dd className="mt-1 font-medium">{user._count.sessions}</dd></div>
       </dl>
       <AdminUserActions id={user.id} role={user.role} identity={user.identityBadge} />
+    </section>
+
+    <section className="card mt-5">
+      <h2 className="text-lg font-bold">管理员警告记录（{user.warningsReceived.length}）</h2>
+      <div className="mt-4 space-y-3">{user.warningsReceived.map((warning) => <div className="rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm dark:border-amber-900 dark:bg-amber-950/30" key={warning.id}><p className="whitespace-pre-wrap">{warning.reason}</p><p className="mt-2 text-xs text-slate-500">处理人：{warning.issuedBy.username} · {warning.createdAt.toLocaleString("zh-CN")}{warning.reportId ? ` · 举报 ${warning.reportId}` : ""}</p></div>)}{user.warningsReceived.length === 0 && <p className="text-sm text-slate-500">暂无管理员警告。</p>}</div>
     </section>
 
     <div className="mt-6 grid gap-5 xl:grid-cols-3">

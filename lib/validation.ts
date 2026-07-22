@@ -17,6 +17,11 @@ export const loginSchema = z.object({ identifier: z.string().trim().min(1), pass
 export const questionSchema = z.object({ title: z.string().trim().min(8).max(150), content: z.string().trim().min(20).max(30000), categoryId: z.string().min(1), tagIds: z.array(z.string()).max(5).default([]), draft: z.boolean().default(false) });
 export const answerSchema = z.object({ content: z.string().trim().min(2).max(30000) });
 export const selfIdentitySchema = z.enum(["NONE", "GRADE_1", "GRADE_2", "GRADE_3", "ALUMNI"]);
+export const avatarUrlSchema = z.string().trim().max(1000).refine((value) => {
+  if (!value || value.startsWith("/")) return true;
+  try { return ["https:", "http:"].includes(new URL(value).protocol); } catch { return false; }
+}, "头像地址必须是有效的 HTTP(S) 链接或站内路径");
+export const profileSchema = z.object({ username: usernameSchema, bio: z.string().trim().max(500), avatarUrl: avatarUrlSchema });
 
 export function normalizeEmail(value: string) { return value.trim().toLowerCase(); }
 export function hasSensitivePersonalInfo(value: string) {

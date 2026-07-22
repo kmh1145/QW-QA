@@ -58,6 +58,37 @@ test.describe("管理员流程", () => {
     await expect(page.getByLabel("开始日期")).toHaveValue(/\d{4}-\d{2}-\d{2}/);
     await expect(page.getByLabel("结束日期")).toHaveValue(/\d{4}-\d{2}-\d{2}/);
 
+    await page.goto("/admin/tags");
+    const tagName = `端测${Date.now()}`;
+    await page.getByPlaceholder("例如：住宿").fill(tagName);
+    await page.getByPlaceholder("dorm-life").fill(`e2e-${Date.now()}`);
+    await page.getByRole("button", { name: "新增标签" }).click();
+    const tagCard = page.locator("form.card").filter({ has: page.locator(`input[name="name"][value="${tagName}"]`) });
+    await expect(tagCard).toBeVisible();
+    page.once("dialog", (dialog) => dialog.accept());
+    await tagCard.getByRole("button", { name: "删除" }).click();
+    await expect(tagCard).toHaveCount(0);
+
+    await page.goto("/admin/announcements");
+    await page.getByRole("button", { name: "新增公告" }).click();
+    const announcementTitle = `【E2E临时公告】${testInfo.project.name}-${Date.now()}`;
+    await page.getByRole("textbox", { name: "标题", exact: true }).fill(announcementTitle);
+    await page.getByLabel("摘要", { exact: true }).fill("Playwright 临时公告摘要");
+    await page.getByRole("textbox", { name: "正文", exact: true }).fill("**Playwright 临时公告正文**");
+    await page.getByRole("button", { name: "创建公告" }).click();
+    const announcementCard = page.getByRole("article").filter({ hasText: announcementTitle });
+    await expect(announcementCard).toBeVisible();
+    page.once("dialog", (dialog) => dialog.accept());
+    await announcementCard.getByRole("button", { name: "删除" }).click();
+    await expect(announcementCard).toHaveCount(0);
+
+    await page.goto("/me/settings");
+    await expect(page.getByRole("heading", { name: "个人资料与头像" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "更换邮箱" })).toBeVisible();
+    await page.goto("/me/security");
+    await expect(page.getByRole("heading", { name: "有效登录设备" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "注销账号" })).toBeVisible();
+
     await page.goto("/me/questions");
     await expect(page.getByRole("link", { name: "我的提问", exact: true })).toHaveAttribute("aria-current", "page");
 

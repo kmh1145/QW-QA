@@ -22,4 +22,5 @@ async function send(to: string, subject: string, heading: string, href: string, 
 }
 
 export const sendVerificationMail = (to: string, token: string) => send(to, "验证你的邮箱", "欢迎加入清华附中湾区学校新生Q&A", `${env().APP_URL}/verify-email/${token}`, "验证邮箱");
+export const sendEmailChangeMail = (to: string, token: string) => send(to, "确认更换邮箱", "请确认将账号邮箱更换为此地址", `${env().APP_URL}/verify-email/${token}`, "确认新邮箱");
 export const sendPasswordResetMail = (to: string, token: string) => send(to, "重置密码", "你申请了密码重置", `${env().APP_URL}/reset-password/${token}`, "重置密码");

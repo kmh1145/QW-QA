@@ -1,1 +1,9 @@
-import { requireUser } from "@/lib/auth"; import { MeNav } from "@/components/me-nav"; import { IdentityForm } from "@/components/identity-form"; export default async function Page(){const u=await requireUser({verified:false});return <main className="container-page max-w-3xl py-10"><MeNav/><h1 className="mb-5 text-3xl font-bold">账号设置</h1><IdentityForm current={u.identityBadge}/><div className="card mt-5"><h2 className="font-bold">资料设置</h2><p className="mt-2 text-sm text-slate-500">头像上传、修改用户名/简介和邮箱换绑界面将在后续版本补齐。</p></div></main>}
+import { requireUser } from "@/lib/auth";
+import { MeNav } from "@/components/me-nav";
+import { IdentityForm } from "@/components/identity-form";
+import { EmailChangeForm, ProfileSettings } from "@/components/profile-settings";
+
+export default async function SettingsPage() {
+  const user = await requireUser({ verified: false });
+  return <main className="container-page max-w-4xl py-10"><MeNav /><h1 className="mb-5 text-3xl font-bold">账号设置</h1><div className="space-y-5"><ProfileSettings username={user.username} bio={user.bio} avatarUrl={user.avatarUrl} /><IdentityForm current={user.identityBadge} /><EmailChangeForm currentEmail={user.email} /></div></main>;
+}

@@ -3,6 +3,7 @@ import { getCurrentUser } from "@/lib/auth";
 import { Badge } from "./user-badge";
 import { LogoutButton } from "./logout-button";
 import { MobileNavigation, ThemeToggle } from "./site-controls";
+import { UserAvatar } from "./user-avatar";
 
 export async function Header() {
   const user = await getCurrentUser();
@@ -20,7 +21,7 @@ export async function Header() {
       <div className="ml-auto flex items-center gap-2">
         <ThemeToggle />
         {user ? <>
-          <Link href="/me" className="hidden items-center gap-2 rounded-xl px-2 py-2 hover:bg-slate-100 dark:hover:bg-slate-800 sm:flex"><span className="max-w-24 truncate text-sm font-medium">{user.username}</span><Badge role={user.role} identity={user.identityBadge} compact /></Link>
+          <Link href="/me" className="hidden items-center gap-2 rounded-xl px-2 py-1 hover:bg-slate-100 dark:hover:bg-slate-800 sm:flex"><UserAvatar username={user.username} avatarUrl={user.avatarUrl} size="sm" /><span className="max-w-24 truncate text-sm font-medium">{user.username}</span><Badge role={user.role} identity={user.identityBadge} compact /></Link>
           <LogoutButton />
         </> : <>
           <Link className="hidden text-sm sm:inline" href="/login">登录</Link>

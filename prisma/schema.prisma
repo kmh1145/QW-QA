@@ -124,6 +124,8 @@ model User {
   auditLogs          AuditLog[]               @relation("Operator")
   uploadedFiles      UploadedFile[]
   knowledgeDocuments KnowledgeDocument[]
+  warningsReceived    UserWarning[]            @relation("WarningRecipient")
+  warningsIssued      UserWarning[]            @relation("WarningIssuer")
 
   @@index([role, status])
   @@index([identityBadge])
@@ -159,9 +161,23 @@ model EmailVerificationToken {
   tokenHash String    @unique
   userId    String
   user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  pendingEmail String? @db.VarChar(320)
   expiresAt DateTime
   usedAt    DateTime?
   createdAt DateTime  @default(now())
+
+  @@index([userId, createdAt])
+}
+
+model UserWarning {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation("WarningRecipient", fields: [userId], references: [id], onDelete: Cascade)
+  issuedById  String
+  issuedBy    User     @relation("WarningIssuer", fields: [issuedById], references: [id])
+  reportId    String?
+  reason      String   @db.VarChar(1000)
+  createdAt   DateTime @default(now())
 
   @@index([userId, createdAt])
 }

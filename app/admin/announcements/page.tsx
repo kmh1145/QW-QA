@@ -1,1 +1,7 @@
-import { db } from "@/lib/db"; export default async function Page(){const rows=await db.announcement.findMany({include:{author:true},orderBy:{publishedAt:"desc"}});return <><h1 className="text-3xl font-bold">公告管理</h1><div className="mt-5 space-y-3">{rows.map(x=><div className="card" key={x.id}><b>{x.title}</b><p className="text-sm">{x.author.username} · {x.isPublic?'公开':'未公开'} · {x.isPinned?'置顶':'普通'}</p></div>)}</div></>}
+import { db } from "@/lib/db";
+import { AnnouncementManager } from "@/components/announcement-manager";
+
+export default async function AnnouncementsAdminPage() {
+  const rows = await db.announcement.findMany({ where: { deletedAt: null }, include: { author: { select: { username: true } } }, orderBy: [{ isPinned: "desc" }, { publishedAt: "desc" }] });
+  return <><h1 className="text-3xl font-bold">公告管理</h1><p className="mt-2 text-sm text-slate-500">创建、编辑、置顶或停止公开校园公告；正文支持 Markdown。</p><AnnouncementManager rows={rows.map((row) => ({ id: row.id, title: row.title, summary: row.summary, content: row.content, isPinned: row.isPinned, isPublic: row.isPublic, publishedAt: row.publishedAt.toISOString(), authorName: row.author.username }))} /></>;
+}
